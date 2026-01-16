@@ -14,3 +14,13 @@
     font-weight: bold;
     color: var(--c-front);
 }
+
+@media screen and (max-width: 600px) {
+    .header-title {
+        font-size: x-large;
+        font-style: italic;
+        font-family: serif;
+        font-weight: bold;
+        color: var(--c-front);
+    }
+}
