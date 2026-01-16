@@ -1,0 +1,50 @@
+[
+    {
+        "id": "101",
+        "tier": "economy",
+        "size": "single",
+        "availability": true,
+        "hall": "rose",
+        "price": 202
+    },
+    {
+        "id": "102",
+        "tier": "economy",
+        "size": "single",
+        "availability": true,
+        "hall": "rose",
+        "price": 210
+    },
+    {
+        "id": "103",
+        "tier": "economy",
+        "size": "double",
+        "availability": false,
+        "hall": "rose",
+        "price": 250
+    },
+    {
+        "id": "201",
+        "tier": "premium",
+        "size": "single",
+        "availability": true,
+        "hall": "rose",
+        "price": 350
+    },
+    {
+        "id": "202",
+        "tier": "premium",
+        "size": "single",
+        "availability": false,
+        "hall": "rose",
+        "price": 375
+    },
+    {
+        "id": "203",
+        "tier": "premium",
+        "size": "double",
+        "availability": true,
+        "hall": "rose",
+        "price": 400
+    }
+]

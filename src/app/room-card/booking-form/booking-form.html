@@ -1,0 +1,28 @@
+<form class="form-box">
+    <h2>Booking Form</h2>
+
+    <div>
+        <span>Room details:</span>
+        <div>&emsp;Choice: {{room.size}} {{room.tier}}</div>
+        <div>&emsp;Price: RM {{room.price}}</div>
+    </div>
+
+    <label>
+        <span>Guest name</span>
+        <input required [formControl]="guestName" />
+    </label>
+
+    <label>
+        <span>Check-in date</span>
+        <input required type="date" [formControl]="checkinDate" min={{TODAY.toISOString().slice(0,10)}} />
+    </label>
+
+    <label>
+        <span>Check-out date</span>
+        <input required type="date" [formControl]="checkoutDate" min={{TODAY.toISOString().slice(0,10)}} />
+    </label>
+
+    <span></span>
+
+    <button type="submit" class="btn btn-primary" (click)="handleSubmit($event)">BOOK NOW</button>
+</form>

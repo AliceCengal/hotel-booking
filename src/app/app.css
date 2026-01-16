@@ -1,0 +1,16 @@
+
+.main {
+    display: grid;
+    align-content: start;
+    width: 100%;
+    max-width: var(--sp-md);
+    margin-inline: auto;
+    margin-block: var(--sp-X);
+    padding-inline: var(--sp-4);
+    row-gap: var(--sp-4);
+}
+
+.list-box {
+    display: grid;
+    row-gap: var(--sp-4);
+}

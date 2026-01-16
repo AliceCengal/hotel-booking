@@ -1,0 +1,16 @@
+.header-box {
+    background-color: var(--c-con-2);
+    padding-inline: var(--sp-8);
+    padding-block: var(--sp-2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-title {
+    font-size: xxx-large;
+    font-style: italic;
+    font-family: serif;
+    font-weight: bold;
+    color: var(--c-front);
+}

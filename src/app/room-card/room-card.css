@@ -1,0 +1,41 @@
+.card-box {
+    padding: var(--sp-2);
+    border: 1px solid var(--c-con-2);
+    border-radius: var(--sp-3);
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    grid-template-rows: auto minmax(0, 1fr) auto;
+    grid-template-areas: "avatar title" "avatar desc" "avatar heel";
+    column-gap: var(--sp-4);
+    background: var(--c-con-1);
+}
+
+.card-avatar {
+    grid-area: avatar;
+    background: #EEAECA;
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    width: 84px;
+    aspect-ratio: 1;
+    border-radius: var(--sp-2);
+}
+
+.card-title {
+    grid-area: title;
+    font-size: x-large;
+}
+
+.card-desc {
+    grid-area: desc;
+}
+
+.card-heel {
+    grid-area: heel;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: var(--sp-4)
+}
+
+.card-heel > span {
+    font-weight: bold;
+}

@@ -1,0 +1,13 @@
+<div class="card-box">
+    <div class="card-avatar"></div>
+    <span class="card-title">Suite {{room().id}}</span>
+    <span class="card-desc">This {{room().size}}-sized room is {{room().tier}}.</span>
+    <div class="card-heel">
+        <span>RM {{room().price}}</span>
+        @if (room().availability && !bookedMap[room().id] && isAvailable()) {
+        <button class="btn btn-primary" (click)="openDialog()">BOOK</button>
+        } @else {
+        <span class="btn btn-warning">SOLD OUT</span>
+        }
+    </div>
+</div>

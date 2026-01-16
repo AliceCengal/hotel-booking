@@ -1,0 +1,7 @@
+
+
+.form-box {
+    display: grid;
+    gap: var(--sp-2)
+}
+
